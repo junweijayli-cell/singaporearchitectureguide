@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-FM1MPVW0NM"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-FM1MPVW0NM');
+  </script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project Detail | Explore Singaporean Architecture</title>
+  <meta
+    name="description"
+    content="Detailed project page for the Singapore Architecture Guide, with real imagery, plans, ratings, and site notes."
+  >
+  <link rel="stylesheet" href="guide.css">
+</head>
+<body class="detail-body">
+  <header class="detail-header">
+    <a class="brandmark brandmark--dark" href="index.html" aria-label="Back to homepage">
+      <span class="brandmark__eyebrow">Singapore</span>
+      <span class="brandmark__title">Architecture Guide</span>
+    </a>
+    <a class="header-action header-action--dark" href="index.html#projects">Back To Browse</a>
+  </header>
+
+  <main id="projectRoot" class="project-root">
+    <section class="detail-loading">
+      <p class="eyebrow">Loading</p>
+      <h1>Preparing project detail...</h1>
+    </section>
+  </main>
+
+  <footer class="site-footer site-footer--detail">
+    <p id="detailAttributionText">
+      Map base: OpenStreetMap contributors.
+    </p>
+  </footer>
+
+  <script src="data/app-data.js"></script>
+  <script src="shared.js"></script>
+  <script src="project.js"></script>
+</body>
+</html>
